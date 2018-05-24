@@ -1,0 +1,32 @@
+﻿  Game.cpp
+  Main.cpp
+c:\users\admin\documents\game_opengl\main.cpp(65): warning C4244: "inicjowanie": konwersja z "double" do "GLfloat", możliwa utrata danych
+  ResourceManager.cpp
+  Shader.cpp
+  Texture.cpp
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny glfwSwapBuffers
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny __imp_glViewport
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny __imp_glClear
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny glfwGetTime
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny __imp_glEnable
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny glfwTerminate
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny glfwPollEvents
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny glfwInit
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny glfwSetKeyCallback
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny glfwSetWindowShouldClose
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny glfwCreateWindow
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny __imp_glBlendFunc
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny glfwWindowHint
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny glfwMakeContextCurrent
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny __imp_glClearColor
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny glewExperimental
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny glfwWindowShouldClose
+Main.obj : error LNK2001: nierozpoznany symbol zewnętrzny __imp_glGetError
+ResourceManager.obj : error LNK2001: nierozpoznany symbol zewnętrzny SOIL_free_image_data
+ResourceManager.obj : error LNK2001: nierozpoznany symbol zewnętrzny SOIL_load_image
+ResourceManager.obj : error LNK2001: nierozpoznany symbol zewnętrzny __imp_glDeleteTextures
+Texture.obj : error LNK2001: nierozpoznany symbol zewnętrzny __imp_glBindTexture
+Texture.obj : error LNK2001: nierozpoznany symbol zewnętrzny __imp_glGenTextures
+Texture.obj : error LNK2001: nierozpoznany symbol zewnętrzny __imp_glTexParameteri
+Texture.obj : error LNK2001: nierozpoznany symbol zewnętrzny __imp_glTexImage2D
+C:\Users\Admin\Documents\Game_OpenGL\x64\Release\szablon_glsl_vs2015.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 25
