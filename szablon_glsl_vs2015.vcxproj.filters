@@ -25,6 +25,18 @@
     <None Include="run_files\shaders\sprite.frag">
       <Filter>shaders</Filter>
     </None>
+    <None Include="run_files\shaders\particle.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="run_files\shaders\particle.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="run_files\shaders\post_processing.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="run_files\shaders\post_processing.vs">
+      <Filter>shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -60,6 +72,12 @@
     <ClInclude Include="ParticleGenerator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PostProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -90,6 +108,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ParticleGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

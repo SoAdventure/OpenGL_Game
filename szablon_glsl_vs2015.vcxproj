@@ -154,6 +154,10 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="run_files\shaders\particle.frag" />
+    <None Include="run_files\shaders\particle.vs" />
+    <None Include="run_files\shaders\post_processing.frag" />
+    <None Include="run_files\shaders\post_processing.vs" />
     <None Include="run_files\shaders\sprite.frag" />
     <None Include="run_files\shaders\sprite.vs" />
   </ItemGroup>
@@ -165,6 +169,8 @@
     <ClInclude Include="include\GLFW\glfw3.h" />
     <ClInclude Include="include\GL\glew.h" />
     <ClInclude Include="ParticleGenerator.h" />
+    <ClInclude Include="PostProcessor.h" />
+    <ClInclude Include="PowerUp.h" />
     <ClInclude Include="ResourceManager.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="SpriteRenderer.h" />
@@ -177,6 +183,7 @@
     <ClCompile Include="GameObjects.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="ParticleGenerator.cpp" />
+    <ClCompile Include="PostProcessor.cpp" />
     <ClCompile Include="ResourceManager.cpp" />
     <ClCompile Include="Shader.cpp" />
     <ClCompile Include="SpriteRenderer.cpp" />

@@ -15,8 +15,8 @@
 #include <glm/glm.hpp>
 
 #include "texture.h"
-#include "spriterenderer.h"
-#include "gameobjects.h"
+#include "powerup.h"
+
 
 // BallObject holds the state of the Ball object inheriting
 // relevant state data from GameObject. Contains some extra
@@ -28,6 +28,7 @@ public:
 	// Ball state	
 	GLfloat   Radius;
 	GLboolean Stuck;
+	GLboolean Sticky, PassThrough;
 	// Constructor(s)
 	BallObject();
 	BallObject(glm::vec2 pos, GLfloat radius, glm::vec2 velocity, Texture2D sprite);
